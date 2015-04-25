@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F80CB57B1AE9293A00D760F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80CB57A1AE9293A00D760F6 /* AppDelegate.swift */; };
 		F80CB57D1AE9293A00D760F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80CB57C1AE9293A00D760F6 /* ViewController.swift */; };
-		F80CB5801AE9293A00D760F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80CB57E1AE9293A00D760F6 /* Main.storyboard */; };
 		F80CB5821AE9293A00D760F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80CB5811AE9293A00D760F6 /* Images.xcassets */; };
 		F80CB5851AE9293A00D760F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80CB5831AE9293A00D760F6 /* LaunchScreen.xib */; };
 		F80CB5911AE9293B00D760F6 /* RotateSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80CB5901AE9293B00D760F6 /* RotateSampleTests.swift */; };
@@ -30,7 +29,6 @@
 		F80CB5791AE9293A00D760F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80CB57A1AE9293A00D760F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80CB57C1AE9293A00D760F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F80CB57F1AE9293A00D760F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F80CB5811AE9293A00D760F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F80CB5841AE9293A00D760F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F80CB58A1AE9293B00D760F6 /* RotateSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +77,6 @@
 			children = (
 				F80CB57A1AE9293A00D760F6 /* AppDelegate.swift */,
 				F80CB57C1AE9293A00D760F6 /* ViewController.swift */,
-				F80CB57E1AE9293A00D760F6 /* Main.storyboard */,
 				F80CB5811AE9293A00D760F6 /* Images.xcassets */,
 				F80CB5831AE9293A00D760F6 /* LaunchScreen.xib */,
 				F80CB5781AE9293A00D760F6 /* Supporting Files */,
@@ -192,7 +189,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80CB5801AE9293A00D760F6 /* Main.storyboard in Resources */,
 				F80CB5851AE9293A00D760F6 /* LaunchScreen.xib in Resources */,
 				F80CB5821AE9293A00D760F6 /* Images.xcassets in Resources */,
 			);
@@ -236,14 +232,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F80CB57E1AE9293A00D760F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F80CB57F1AE9293A00D760F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F80CB5831AE9293A00D760F6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +397,7 @@
 				F80CB5961AE9293B00D760F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80CB5971AE9293B00D760F6 /* Build configuration list for PBXNativeTarget "RotateSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +406,7 @@
 				F80CB5991AE9293B00D760F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

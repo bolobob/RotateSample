@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     }
 
     func toVC2(sender: UIButton) {
-        println(sender)
+        self.presentViewController(ViewController2(), animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

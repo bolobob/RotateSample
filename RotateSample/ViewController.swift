@@ -40,13 +40,18 @@ class ViewController: UIViewController {
             NSLayoutConstraint(item: buttonToVC2, attribute: .Bottom, relatedBy: .Equal, toItem: view, attribute: .Bottom, multiplier: 1.0, constant: -20),
             NSLayoutConstraint(item: buttonToVC2, attribute: .CenterX, relatedBy: .Equal, toItem: view, attribute: .CenterX, multiplier: 1.0, constant: 0),
             ])
+
+        buttonToVC2.addTarget(self, action: "toVC2:", forControlEvents: UIControlEvents.TouchUpInside)
+    }
+
+    func toVC2(sender: UIButton) {
+        println(sender)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
